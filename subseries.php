@@ -1,8 +1,8 @@
 <?php
 include('local.db.php');
 
-$radar= trim($_GET['radar']);
-$season= trim($_GET['season']);
+$radar= strtoupper(trim($_GET['radar']));
+$season= strtoupper(trim($_GET['season']));
 $from= trim($_GET['from']);
 $to= trim($_GET['to']);
 //echo $radar.$season.$from.$to;
