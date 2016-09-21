@@ -1,0 +1,5 @@
+ReWriteEngine On
+RewriteCond %{SERVER_PORT} 80
+# This checks to make sure the connection is not already HTTPS – port 80 indicates a non-secured HTTP conection.
+
+RewriteRule ^(.*)$ https://radar-labvm2.anr.udel.edu/screen/$1 [R=301,L]

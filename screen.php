@@ -104,7 +104,7 @@ $lm->identity_name = 'id_screen';
 
 // optional, define editable input controls on the grid
 $lm->grid_input_control['status'] = '--text';
-#$lm->grid_input_control['contamination_type'] = '--text';
+$lm->grid_input_control['contamination_type'] = '--text';
 #$lm->grid_input_control['target_id'] = '--text';
 $lm->grid_input_control['screener'] = '--text';
 #$lm->grid_input_control['surface_wind'] = '--text';
